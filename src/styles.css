@@ -208,6 +208,40 @@ footer { min-height: 74px; padding: 20px clamp(24px, 6vw, 88px); display: flex; 
   .finish-card { align-items: flex-start; flex-direction: column; }
 }
 
+@media (max-width: 640px) {
+  .top-workspace, .action-workspace { padding-left: 14px; padding-right: 14px; }
+  .top-workspace .workspace-heading, .action-workspace .workspace-heading { margin-bottom: 30px; }
+
+  .candidate-panel, .ranking-panel { padding: 16px; }
+  .candidate-grid { grid-template-columns: 1fr; gap: 10px; max-height: none; overflow: visible; }
+  .candidate-grid button { min-height: 62px; padding: 12px 14px; font-size: 15px; font-weight: 650; border-radius: 5px; }
+  .candidate-grid button span { width: 32px; height: 32px; font-size: 16px; }
+
+  .ranking-panel li { min-height: 66px; gap: 9px; }
+  .ranking-panel .rank { width: 34px; height: 34px; font-size: 13px; }
+  .ranking-panel li strong { font-size: 15px; }
+  .ranking-panel li em { font-size: 13px; }
+  .ranking-panel li > div { gap: 2px; }
+  .ranking-panel li button { width: 44px; height: 48px; border: 1px solid #e4ddd3; border-radius: 4px; background: white; font-size: 18px; }
+
+  .top-workspace .workspace-actions .primary-button,
+  .action-workspace .workspace-actions .quiet-button,
+  .finish-card .primary-button { min-height: 58px; font-size: 15px; }
+
+  .action-list { gap: 16px; }
+  .action-list article { padding: 22px 18px; gap: 20px; border-radius: 5px; }
+  .action-list article h2 { font-size: 25px; }
+  .action-list article > header { gap: 14px; }
+  .action-list .rank { width: 38px; height: 38px; font-size: 14px; }
+  .focus-label { padding: 4px 8px; font-size: 9px; }
+  .rating-block label, .action-input label { margin-bottom: 10px; font-size: 11px; }
+  .rating-scale { gap: 7px; }
+  .rating-scale button { min-width: 0; height: 56px; border-radius: 5px; font-size: 17px; font-weight: 700; }
+  .scale-labels { margin-top: 6px; font-size: 10px; }
+  .action-input textarea { min-height: 112px; padding: 13px; border-radius: 5px; font-size: 16px; line-height: 1.5; }
+  .finish-card { gap: 24px; }
+}
+
 @media (max-width: 480px) {
   .header-note { display: none; }
   h1 { font-size: 47px; }
@@ -219,7 +253,7 @@ footer { min-height: 74px; padding: 20px clamp(24px, 6vw, 88px); display: flex; 
   .progress-block { min-width: 0; }
   .value-card { min-height: 210px; }
   .bucket-button { min-height: 55px; }
-  .candidate-grid { grid-template-columns: 1fr 1fr; }
+  .candidate-grid { grid-template-columns: 1fr; }
   .candidate-panel, .ranking-panel { padding: 18px; }
   .workspace-actions { align-items: stretch; flex-direction: column-reverse; }
   .workspace-actions .quiet-button { width: 100%; }
