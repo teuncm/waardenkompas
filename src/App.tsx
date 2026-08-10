@@ -372,4 +372,12 @@ function ActionStage({ top10, ratings, actions, setRatings, setActions, onBack, 
   </section>;
 }
 
-function Footer() { return <footer><span>Gebaseerd op de Waarden Sorteertaak van ACT in Actie (2015)</span><span>Jouw antwoorden worden alleen lokaal bewaard.</span></footer>; }
+function Footer() {
+  return <footer>
+    <span>
+      Bron: Waarden Sorteertaak van ACT in Actie (2015) ·{" "}
+      <a href="./waardensorteertaak-act-in-actie.pdf" download>Download het oorspronkelijke document (pdf)</a>
+    </span>
+    <span>Jouw antwoorden worden alleen lokaal bewaard.</span>
+  </footer>;
+}

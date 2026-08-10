@@ -44,3 +44,5 @@ De gepubliceerde versie is beschikbaar op [teuncm.nl/waardenkompas](https://teun
 ## Inhoudelijke bron
 
 Gebaseerd op de *Waarden Sorteertaak* van ACT in Actie (2015). De lijst met waarden en de instructiestappen zijn digitaal verwerkt in deze oefening.
+
+[Download het oorspronkelijke document (pdf)](https://teuncm.nl/waardenkompas/waardensorteertaak-act-in-actie.pdf). Hetzelfde bestand is in deze repository opgenomen als [`public/waardensorteertaak-act-in-actie.pdf`](./public/waardensorteertaak-act-in-actie.pdf).
