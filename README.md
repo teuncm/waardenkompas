@@ -1,5 +1,7 @@
 # Mijn Waardenkompas
 
+[Open de website](https://teuncm.nl/waardenkompas/) · [Bekijk de broncode op GitHub](https://github.com/teuncm/waardenkompas)
+
 Een interactieve, Nederlandstalige waardensorteer-oefening. De 125 kaarten worden bij een nieuwe start willekeurig geschud. De gebruiker sorteert ze, stelt een top 10 samen en kan daarna een persoonlijk actieplan als echte pdf downloaden.
 
 ## Functies
@@ -36,6 +38,8 @@ npm run build
 5. De meegeleverde workflow bouwt en publiceert de site automatisch.
 
 Bij volgende wijzigingen hoef je alleen opnieuw naar `main` te pushen.
+
+De gepubliceerde versie is beschikbaar op [teuncm.nl/waardenkompas](https://teuncm.nl/waardenkompas/).
 
 ## Inhoudelijke bron
 
